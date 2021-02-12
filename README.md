@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/j75xs1qht8oiw8oi?svg=true)](https://ci.appveyor.com/project/Nenakhov-Maxim/ajs-13-clear-func)
