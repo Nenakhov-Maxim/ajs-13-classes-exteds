@@ -1,14 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 class Magician extends Character {
-  constructor(name, type) {
-    super(name, type);
+  constructor(name) {
+    super(name, 'Magician');
     this.attack = 25;
     this.defence = 25;
-    this.printCharter();
-  }
-
-  printCharter() {
-    // eslint-disable-next-line no-console
-    console.log(`health: ${this.health}, level:  ${this.level}, Атака/защита: ${this.type}:${this.attack}/${this.defence}`);
   }
 }
