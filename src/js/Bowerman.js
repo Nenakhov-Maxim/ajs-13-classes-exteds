@@ -1,5 +1,6 @@
+import Character from './Character';
 // eslint-disable-next-line no-unused-vars
-class Bowman extends Character {
+export default class Bowerman extends Character {
   constructor(name) {
     super(name, 'Bowman');
     this.attack = 25;
